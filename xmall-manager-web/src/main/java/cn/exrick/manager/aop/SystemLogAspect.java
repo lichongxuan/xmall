@@ -125,7 +125,7 @@ public class SystemLogAspect {
      * @param joinPoint
      * @param e
      */
-    @AfterThrowing(pointcut="serviceAspect()", throwing="e")
+    @AfterThrowing(pointcut="serviceAspect()", throwing= "e")
     public void doAfterThrowing(JoinPoint joinPoint, Throwable e) {
 
         try {
